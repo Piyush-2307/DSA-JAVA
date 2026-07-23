@@ -1,6 +1,5 @@
 package Basics.Day03;
 
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Conditionls {
@@ -130,5 +129,6 @@ public class Conditionls {
         } else if (str == str.toUpperCase()) {
             System.out.println(str.toLowerCase());
         }
+        sc.close();
     }
 }
