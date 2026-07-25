@@ -50,34 +50,35 @@ public class loops {
 
 //        While loop
 
-        int i = 0;
-        while (i <= 5){
-            if (i == 3){
-                i++;
+        int n = 0;
+        while (n <= 5){
+            if (n == 3){
+                n++;
                 continue;
             }
-            System.out.println(i);
-            i++;
+            System.out.println(n);
+            n++;
         }
 
-        int i = 1;
-        while (i <= 2){
-            int j = 1;
-            while (j <= 3){
-                System.out.println("i = " + i + ", j = " + j);
-                j++;
+        int a = 1;
+        while (a <= 2){
+            int b = 1;
+            while (b <= 3){
+                System.out.println("a = " + a + ", b = " + b);
+                b++;
+
             }
-            i++;
+            a++;
         }
 
-        Do while loop
-        int i = 1;
+//        Do while loop
+        int k = 1;
         do {
-            System.out.println(i);
-            i++;
-        }while (i <= 3);
+            System.out.println(k);
+            k++;
+        }while (k <= 3);
 
-        HW
+//        HW
         for (int i = 0; i <= 12; i++){
             System.out.println(i);
         }
@@ -117,6 +118,10 @@ public class loops {
             if (temp == 0 && i > 1) {
                 System.out.println(i);
             }
+        }
+        int sum1 = 0;
+        for(int i = 1; i <= 10; i++){
+            System.out.println(sum1 += i);
         }
     }
 }
