@@ -1,4 +1,4 @@
-package Basics.Day04;
+package Basics.B04;
 
 public class loops {
     public static void main(String[] args) {

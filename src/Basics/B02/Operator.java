@@ -1,4 +1,4 @@
-package Basics.Day02;
+package Basics.B02;
 
 public class Operator {
     public static void main(String[] args){

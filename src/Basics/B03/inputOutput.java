@@ -1,4 +1,4 @@
-package Basics.Day03;
+package Basics.B03;
 
 import java.math.BigInteger;
 import java.util.Scanner;

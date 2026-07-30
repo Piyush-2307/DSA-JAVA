@@ -1,4 +1,4 @@
-package Basics.Day01;
+package Basics.B01;
 
 public class Hello{
     public static void main(String[] args){
