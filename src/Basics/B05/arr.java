@@ -2,7 +2,7 @@ package Basics.B05;
 
 import java.util.Scanner;
 
-public class Array {
+public class arr {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
 
@@ -91,6 +91,6 @@ public class Array {
             System.out.println();
         }
                     System.out.println("total: " + sum1);
-
+            sc.close();
     }
 }
