@@ -22,12 +22,12 @@ public class StudentClassTemplate {
     }
 
     //Copy ctor
-    public StudentClassTemplate(StudentClassTemplate srcobj){
+    public StudentClassTemplate(StudentClassTemplate B){
         System.out.println("Student Copy ctor called");
-        this.id = srcobj.id;
-        this.name = srcobj.name;
-        this.age = srcobj.age;
-        this.noOfSubjects = srcobj.noOfSubjects;
+        this.id = B.id;
+        this.name = B.name;
+        this.age = B.age;
+        this.noOfSubjects = B.noOfSubjects;
     }
 
     //Behaivour
