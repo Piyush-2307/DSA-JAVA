@@ -6,7 +6,7 @@ public class EncapClassTemplate {
     public String name;
     private int age;
     public int noOfSubjects;
-    private String gf;
+    protected String gf;
 
 
     public EncapClassTemplate(int id, String name, int age, int noOfSubjects, String gf){
@@ -27,7 +27,10 @@ public class EncapClassTemplate {
         System.out.println(name + ": Sleeping");
     }
 
-    public String getGf(){
+    public String getGf(String designation){
+        if(designation != "friend"){
+            return "404 SC not found Aagyakari ladka".toLowerCase().toUpperCase();
+        }
         return this.gf;
     }
 

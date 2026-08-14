@@ -9,7 +9,7 @@ public class EncapObj {
         A.setAge(22);
         System.out.println("Student age is: " + A.getAge());
         System.out.println("Student no of subjects are: " + A.noOfSubjects);
-        System.out.println("Student gf's name: " + A.getGf());
+        System.out.println("Student gf's name: " + A.getGf("Mumma"));
 
 
 
