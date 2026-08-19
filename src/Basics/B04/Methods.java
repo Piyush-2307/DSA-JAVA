@@ -20,10 +20,10 @@ public class Methods {
             System.out.println("Inside solve: " + num);
         }
     public static void main(String[] args) {
-            int num = 5;
-            System.out.println("Inside main: " + num);
-            solve(num);
-            System.out.println("Inside main: " + num);
+//            int num = 5;
+//            System.out.println("Inside main: " + num);
+//            solve(num);
+//            System.out.println("Inside main: " + num);
 //        System.out.println("in");
 //        table();
 //        System.out.println("out");
