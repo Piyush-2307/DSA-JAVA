@@ -1,6 +1,6 @@
 package OOPS.D04polymorphism;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
 //        Calculator cal = new Calculator();
@@ -24,9 +24,12 @@ public class main {
         Shape shape1 = new Circle();
         doDrawingStuff(shape1);
 
+        Shape shape2 = new Circle();
+        shape2.draw();
+
     }
 
-    public static void doDrawingStuff(Shape s){
-        s.draw();
+    public static void doDrawingStuff(Shape shape){
+        shape.draw();
     }
 }

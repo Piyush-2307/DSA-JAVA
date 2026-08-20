@@ -1,6 +1,6 @@
 package OOPS.D03inheritance;
 
-public class main {
+public class Main {
     public static void main(String[] args) {
 
         Suv suv = new Suv("mahindra", "XUY700", 4, 4, "dual-clutch transmission", 6);
